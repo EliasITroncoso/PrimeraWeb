@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #39e765;
+    color: #333;
+    margin: 20px;
+  }
+
+#botones_inicio {
+    /*background-color: blueviolet;*/
+    width: 30vw;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tit_bot_inicio {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(78, 57, 5);
+    transition: 1s;
+}
+
+
+.miniatura {
+    width: 30px;
+    height: 30px;
+}
+
+.target {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.tit_bot_inicio:hover {
+ color: chartreuse;
+}
