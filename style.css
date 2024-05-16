@@ -54,8 +54,7 @@ body {
 
 
 .miniatura {
-    width: 30px;
-    height: 30px;
+    height: 40px;
 }
 
 .target {
@@ -68,4 +67,43 @@ body {
 
 .tit_bot_inicio:hover {
  color: chartreuse;
+}
+
+.ord_section {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.inch_section {
+    border: 1px solid black;
+    width: 45vw;
+    padding: 0.5em;
+}
+
+.cuadriculas {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.margen_list {
+    margin-left: 50px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+
+table {
+    margin-top: 5px;
+}
+
+th, .resalt_celda {
+    background-color: #e0f859;
 }
